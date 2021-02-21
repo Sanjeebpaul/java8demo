@@ -4,7 +4,8 @@ public class TestDimondProblem implements IAnimal, IPlant {
 	@Override
 	public void showMessage() {
 		//System.out.println("This is from implementation");
-		IPlant.super.showMessage();
+		//IPlant.super.showMessage();
+		IAnimal.super.showMessage();
 	}
 
 	public static void main(String args[]) {
